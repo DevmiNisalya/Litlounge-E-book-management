@@ -1,0 +1,90 @@
+
+
+.roma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #030303;
+  }
+  
+  .romaTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    color: #e73838fa;
+    text-shadow: -1px -1px 0 #ffffff, /* Top-left shadow */
+      1px -1px 0 #ffffff, /* Top-right shadow */
+      -1px 1px 0 #ffffff, /* Bottom-left shadow */
+      1px 1px 0#ffffff; /* Bottom-right shadow */
+  }
+
+.romaTitleLg{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+    color: #580d0dfa;
+    text-shadow: -1px -1px 0 #ffffff, /* Top-left shadow */
+      1px -1px 0 #ffffff, /* Top-right shadow */
+      -1px 1px 0 #ffffff, /* Bottom-left shadow */
+      1px 1px 0#ffffff; /* Bottom-right shadow */
+  }
+
+.romaImg{
+    width :100%;
+    height:450px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+  
+  .romaDesc {
+    color: #c75353;
+    font-size: 20px;
+    line-height: 25px;
+    text-shadow: -1px -1px 0 #f3f1f1, 1px -1px 0 #ffefef, -1px 1px 0 #ffffff, 1px 1px 0 #fff4f4;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .romapost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .romapostItem {
+    width: calc(33.33% - 20px); /* Adjust width and margin as needed */
+    margin: 20px 0;
+    background-color: #fff; /* Optional background color for each post */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .romapostImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .kidspostInfo {
+    padding: 20px;
+  }
+  
+  .postTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .kidspostDesc {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+ 
